@@ -1,4 +1,4 @@
-# youtube_scrape
+# Python YouTube Video Downloader
 A basic script to download videos by keywords from YouTube using public API-Key. 
 Code credits to https://github.com/srcecde/python-youtube-api
 ## Getting Started
