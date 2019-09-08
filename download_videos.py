@@ -10,7 +10,7 @@ with open('keywords.txt', 'r') as f:
 for keyword in keywords:
 	print (keyword)
 	try:
-		os.system('python python-youtube-api/main.py --s --search "%s" --max 50 --key {}' % (keyword, API_KEY))
+		os.system('python python-youtube-api/main.py --s --search "%s" --max 50 --key %s' % (keyword, API_KEY))
 	except Exception as e:
 		pritn (e, keyword)
 	with open('output/search_term_videos.csv', 'r') as f:
